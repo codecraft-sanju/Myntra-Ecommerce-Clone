@@ -1,0 +1,185 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #ff6600;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo_container img {
+    width: 150px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e65c00;
+}
+
+/* Main Content */
+main {
+    padding: 40px 10%;
+    background-color: #fff;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e65c00;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+footer nav a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .logo_container img {
+        width: 120px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    main {
+        padding: 20px 5%;
+    }
+
+    section h1 {
+        font-size: 28px;
+    }
+
+    form input,
+    form textarea {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header .logo_container img {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 12px;
+        margin: 0 8px;
+    }
+
+    main {
+        padding: 15px 3%;
+    }
+
+    section h1 {
+        font-size: 24px;
+    }
+
+    form input,
+    form textarea {
+        font-size: 12px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer nav a {
+        margin: 0 8px;
+        font-size: 12px;
+    }
+}

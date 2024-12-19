@@ -1,6 +1,6 @@
 const items = [
     {
-        id: '001',
+        id: '1',
         image: 'images/1.jpg',
         company: 'Carlton London',
         item_name: 'Rhodium-Plated CZ Floral Studs',
@@ -15,7 +15,7 @@ const items = [
         },
     },
     {
-        id: '002',
+        id: '2',
         image: 'images/2.jpg',
         company: 'CUKOO',
         item_name: 'Women Padded Halter Neck Swimming Dress',
@@ -30,7 +30,7 @@ const items = [
         },
     },
     {
-        id: '003',
+        id: '3',
         image: 'images/3.jpg',
         company: 'NUEVOSDAMAS',
         item_name: 'Women Red & White Printed A-Line Knee-Length Skirts',
@@ -45,7 +45,7 @@ const items = [
         },
     },
     {
-        id: '004',
+        id: '4',
         image: 'images/4.jpg',
         company: 'ADIDAS',
         item_name: 'Indian Cricket ODI Jersey',
@@ -60,7 +60,7 @@ const items = [
         },
     },
     {
-        id: '005',
+        id: '5',
         image: 'images/5.jpg',
         company: 'Roadster',
         item_name: 'Pure Cotton T-shirt',
@@ -75,7 +75,7 @@ const items = [
         },
     },
     {
-        id: '006',
+        id: '6',
         image: 'images/6.jpg',
         company: 'Nike',
         item_name: 'Men ReactX Running Shoes',
@@ -90,7 +90,7 @@ const items = [
         },
     },
     {
-        id: '007',
+        id: '7',
         image: 'images/7.jpg',
         company: 'The Indian Garage Co',
         item_name: 'Men Slim Fit Regular Shorts',
@@ -103,7 +103,7 @@ const items = [
         },
     },
     {
-        id: '008',
+        id: '8',
         image: 'images/8.jpg',
         company: 'Nivea',
         item_name: 'Men Fresh Deodrant 150ml',
@@ -118,7 +118,7 @@ const items = [
         },
     }, 
    {
-    id: '009',
+    id: '9',
     image: 'images/9.jpg', 
     company: 'Levi\'s',
     item_name: 'Men\'s Casual Shirt - Slim Fit',
@@ -134,7 +134,7 @@ const items = [
 },
 
  {
-    id: '010',
+    id: '10',
     image: 'images/10.jpg', 
     company: 'Lacoste',
     item_name: 'Men\'s Polo T-Shirt',
@@ -150,7 +150,7 @@ const items = [
 },
 
       {
-    id: '011',
+    id: '11',
     image: 'images/11.jpg', 
     company: 'K-Fashion',
     item_name: 'Men\'s Slim Fit Korean Pant',
@@ -166,7 +166,7 @@ const items = [
 },
 
        {
-    id: '012',
+    id: '12',
     image: 'images/12.jpg',
     company: 'K-Fashion',
     item_name: 'Men\'s Korean Style Shirt',
@@ -182,7 +182,7 @@ const items = [
 },
 
          {
-    id: '013',
+    id: '13',
     image: 'images/13.jpg',
     company: 'Style Diva',
     item_name: 'Women\'s Top and Jeans Outfit',
@@ -198,7 +198,7 @@ const items = [
 },
 
             {
-    id: '014',
+    id: '14',
     image: 'images/14.jpg',
     company: 'SG',
     item_name: 'SG Cricket Bat',
@@ -214,7 +214,7 @@ const items = [
 },
 
            {
-    id: '015',
+    id: '15',
     image: 'images/15.jpg',
     company: 'Sony',
     item_name: 'Wireless Over-Ear Headphone',
@@ -228,7 +228,4 @@ const items = [
         count: 3200,
     },
 }
-
-    
-   
 ];

@@ -44,10 +44,26 @@ function displayBagSummary() {
                         <span class="price-item-value">₹ ${finalPayment}</span>
                     </div>
                 </div>
-                <button class="btn-place-order">
-                    <div class="css-xjhrni">PLACE ORDER</div>
+                <button class="btn-place-order" onclick="handleBuyNow()">
+                    <div class="css-xjhrni"  id="payButton">Buy Now</div>
                 </button>`
 }
+function handleBuyNow() {
+    let totalMRP = 0;
+    let totalDiscount = 0;
+
+    bagItemObjects.forEach(bagItem => {
+        totalMRP += bagItem.original_price;
+        totalDiscount += bagItem.original_price - bagItem.current_price;
+    });
+
+    const finalPayment = totalMRP - totalDiscount + CONVENIENCE_FEES;
+
+    // Call the payment function
+    initiatePayment(finalPayment);
+}
+
+
 
 function loadBagItemObjects() {
     bagItemObjects = bagItems.map(itemId => {

@@ -44,27 +44,6 @@ header {
     color: #ff3f6c;
     font-size: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .nav_bar {
     display: flex;
     justify-content: space-evenly;
@@ -121,39 +100,14 @@ header {
     display: flex;
 }
 
-.End{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  
+
+
+
+
+ .search_input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ff3f6c;
 }
-.heartImage{
-    width:25px;
-    margin-left: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .search_bar {
     height: 40px;
@@ -231,6 +185,17 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     
+}
+.End{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  
+}
+.heartImage{
+    width:25px;
+    margin-left: 10px;
 }
 
 .dil{
