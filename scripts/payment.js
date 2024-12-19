@@ -1,7 +1,7 @@
 const isTestMode = true; // Set true for Test Mode, false for Live Mode
 const razorpayKey = isTestMode
-    ? "rzp_test_zIqlGLC73lm55u" // Replace with your Test Key ID
-    : "YOUR_LIVE_KEY_ID"; // Replace with your Live Key ID
+    ? "rzp_test_zIqlGLC73lm55u" // Test Key ID
+    : "rzp_live_xOxn12n7w9kPuo"; // live key id
 
     
 
