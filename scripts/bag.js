@@ -1,4 +1,4 @@
-const CONVENIENCE_FEES = 99;
+const CONVENIENCE_FEES = 0;
 let bagItemObjects;
 onload();
 
